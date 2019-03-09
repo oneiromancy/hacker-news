@@ -1,0 +1,15 @@
+.CommentMeta__itemLink{
+    margin-right: 0.25rem;
+    text-decoration: none;
+    color: grey;
+}
+
+.CommentMeta__itemLink:hover{
+    text-decoration: underline;
+}
+
+.CommentMeta{
+    color: grey;
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+}

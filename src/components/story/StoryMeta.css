@@ -1,0 +1,13 @@
+.StoryMeta__itemLink{
+    text-decoration: none;
+    color: grey;
+}
+
+.StoryMeta__itemLink:hover{
+    text-decoration: underline;
+}
+
+.StoryMeta{
+    color: grey;
+    font-size: 0.85rem;
+}

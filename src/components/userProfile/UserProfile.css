@@ -1,0 +1,21 @@
+.UserDetails__section{
+    color: grey;
+}
+
+.UserDetails__itemLink{
+    color: black;
+}
+
+.UserDetails__username, .UserDetails__accountCreationDate, .UserDetails__karma, .UserDetails__about{
+    margin-bottom: 0.25rem;
+}
+
+.UserDetails__itemLinkContainer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.UserDetails__itemLinkContainer .UserDetails__itemLink{
+    margin-bottom: 0.25rem;
+}

@@ -1,0 +1,14 @@
+.StoryHeading__itemLink{
+    text-decoration: none;
+    color: grey;
+    font-size: 0.85rem;
+}
+
+.StoryHeading__title{
+    font-size: 0.95rem;
+    color: black
+}
+
+.StoryHeading__urlLink:hover{
+    text-decoration: underline;
+}

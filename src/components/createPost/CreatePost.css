@@ -1,0 +1,33 @@
+.CreatePost__inputContainer{
+    display: flex;
+    margin: 0.75rem 0;
+}
+
+.CreatePost__label{
+    flex-basis: 2rem;
+    margin-right: 0.5rem;
+    color: grey;
+}
+
+.CreatePost__btn{
+    margin-left: 2.5rem;
+}
+
+.CreatePost__optionDivider{
+    margin: 0.5rem 3rem;
+    color: grey;
+    font-weight: bold;
+}
+
+.CreatePost__input{
+    width: 20rem;
+}
+
+.CreatePost__textarea{
+    height: 5rem;
+}
+
+.CreatePost__instructionMsg{
+    color: grey;
+    margin: 1rem 2.5rem;
+}

@@ -1,0 +1,9 @@
+.CommentForm__textarea{
+    height: 6rem;
+    width: 27rem;
+}
+
+.CommentForm__button{
+    margin-top: 1rem; 
+    margin-bottom: 2.5rem;
+}

@@ -1,0 +1,48 @@
+.Navbar{
+    background-color: #ff6600;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    padding: 0.2rem 0.9rem;
+}
+
+.Navbar__logo{
+    font-weight: bold;
+    min-width: 6.5rem;
+}
+
+.Navbar__itemLink{
+    text-decoration: none;
+    color: black
+}
+
+.Navbar__menuItem--active{
+    text-decoration: none;
+    color: white
+}
+
+.Navbar__menuList{
+    text-align: left;
+}
+
+.Navbar__logo{
+    flex-basis: 10%;
+}
+
+.Navbar__menuList{
+    flex-basis: 80%;
+}
+
+.Navbar__authBtn{
+    flex-basis: 10%;
+}
+
+@media only screen and (min-width: 750px) {
+    .Navbar{
+        flex-direction: row;
+    }
+
+    .Navbar__authBtn{
+        text-align: right;
+    }
+}
