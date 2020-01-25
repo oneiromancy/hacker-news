@@ -1,9 +1,9 @@
-.NextPageLink{
+.NextPageLink {
     margin-left: 0.25rem;
     text-decoration: none;
     color: grey;
 }
 
-.NextPageLink:hover{
+.NextPageLink:hover {
     color: black;
 }

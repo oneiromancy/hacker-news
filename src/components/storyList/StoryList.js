@@ -1,17 +1,13 @@
-import React from 'react';
-import Story from '../../components/story/Story';
-import withItemListData from '../../hoc/withItemListData';
+import React from "react";
 
-const StoryList = ({data}) => 
+import Story from "../../components/story/Story";
+
+const StoryList = ({ data }) => (
     <>
-        {
-            data.map( (entry, index) => 
-                <Story 
-                    key = {index} 
-                    {...entry}
-                />
-            )
-        }
+        {data.map((entry, index) => (
+            <Story key={index} {...entry} />
+        ))}
     </>
+);
 
-export default withItemListData(StoryList);
+export default StoryList;
