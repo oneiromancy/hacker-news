@@ -1,48 +1,48 @@
-import { fetchItemList, fetchItem, fetchUserArchive } from './apiTransaction';
+import { fetchList, fetchItem, fetchUserArchive } from "./apiQuery";
 
 const fetchApiByPathname = {
-    '/': {
-        tag: 'front_page',
-        fetchFn: fetchItemList
+    "/": {
+        tag: "front_page",
+        fetchFn: fetchList
     },
-    '/news': {
-        tag: 'front_page',
-        fetchFn: fetchItemList
+    "/news": {
+        tag: "front_page",
+        fetchFn: fetchList
     },
-    '/newest': {
-        tag: 'story',
-        fetchFn: fetchItemList
+    "/newest": {
+        tag: "story",
+        fetchFn: fetchList
     },
-    '/ask': {
-        tag: 'ask_hn',
-        fetchFn: fetchItemList
+    "/ask": {
+        tag: "ask_hn",
+        fetchFn: fetchList
     },
-    '/show': {
-        tag: 'show_hn',
-        fetchFn: fetchItemList
+    "/show": {
+        tag: "show_hn",
+        fetchFn: fetchList
     },
-    '/newcomments': {
-        tag: 'comment',
-        fetchFn: fetchItemList
+    "/newcomments": {
+        tag: "comment",
+        fetchFn: fetchList
     },
-    '/jobs': {
-        tag: 'job',
-        fetchFn: fetchItemList
+    "/jobs": {
+        tag: "job",
+        fetchFn: fetchList
     },
-    '/user': {
-        tag: 'users',
+    "/user": {
+        tag: "users",
         fetchFn: fetchItem
     },
-    '/item': {
-        tag: 'items',
+    "/item": {
+        tag: "items",
         fetchFn: fetchItem
     },
-    '/submitted': {
-        tag: 'story',
+    "/submitted": {
+        tag: "story",
         fetchFn: fetchUserArchive
     },
-    '/threads': {
-        tag: 'comment',
+    "/threads": {
+        tag: "comment",
         fetchFn: fetchUserArchive
     }
 };
